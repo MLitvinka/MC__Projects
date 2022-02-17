@@ -14,7 +14,15 @@
   @media (max-width:375px ) {
     .main__box{
       width: 350px;
-    height: 374px;
+    height: 667px;
+    }
+    .box__logo{
+      width: 350px;
+      height: 340px;
+    }
+    .box__player{
+      width: 350px;
+      height: 200px;
     }
   }
   .main__box{
