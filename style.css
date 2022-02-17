@@ -9,7 +9,7 @@
     background: no-repeat;
     background-size: 100% 100%;
     background-image: url(./img/ed-sheeran-albums-background.jpg) ;
-    /* filter: blur(10px);  */
+    filter: blur(10px); 
   }
  
   .main__box{
@@ -116,8 +116,8 @@
 }
 @media screen and (max-width: 1000px ) {
   .main__container{
-    max-height: 100%;
-    max-width: 100%;
+    max-height: 375px;
+    max-width: 667px;
     margin: auto;
     left: 0; right: 0; 
     top: 0; bottom: 0; 
@@ -129,13 +129,14 @@
   }
 
   .main__box{
-    width: 370px;
-    height: 660px;
-    position: absolute;
+    max-width: 370px;
+    max-height: 660px;
+    /* position: absolute; */
     display: flex;
+    margin: 5px;
     flex-direction: column;
-    left: 50%;
-    top: 16%;
+    /* left: 50%; */
+    top: 0%;
    
   }
   .box__logo{
