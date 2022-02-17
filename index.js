@@ -12,7 +12,7 @@ const player = document.querySelector('.player'),
      
 
 
-const songs = ['Snow (Hey Oh)', 'Californication'] 
+const songs = ['Gold', 'Hearts dont break around here', 'Let it out', 'Perfect', 'Shape of you', 'Way to break my heart'] 
 
 let songIndex = 0     
 
