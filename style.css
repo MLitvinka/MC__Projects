@@ -9,22 +9,9 @@
     background: no-repeat;
     background-size: 100% 100%;
     background-image: url(./img/ed-sheeran-albums-background.jpg) ;
-    filter: blur(10px); 
+    /* filter: blur(10px);  */
   }
-  @media (max-width:375px ) {
-    .main__box{
-      width: 350px;
-    height: 667px;
-    }
-    .box__logo{
-      width: 350px;
-      height: 340px;
-    }
-    .box__player{
-      width: 350px;
-      height: 200px;
-    }
-  }
+ 
   .main__box{
     width: 500px;
     height: 540px;
@@ -42,7 +29,7 @@
     width: 500px;
     height: 340px;
     background: no-repeat;
-    background-size: 100% 100%;
+    /* background-size: 100% 100%; */
     background-image: url(./img/ed-sheeran-divide-album-cover.png);
     border-radius: 20px 20px 0px 0px;
   }
@@ -53,6 +40,7 @@
     top: 350px; 
     border-radius: 0px 0px 20px 20px;
   }
+  
   .btn__play{
     position: absolute;
     height: 65px;
@@ -125,4 +113,62 @@
   font-size: 17px;
   bottom: 20%;
   left: 27%;
+}
+@media screen and (max-width: 1000px ) {
+  .main__container{
+    max-height: 100%;
+    max-width: 100%;
+    margin: auto;
+    left: 0; right: 0; 
+    top: 0; bottom: 0; 
+    z-index: -1; 
+    background: no-repeat;
+    background-size: 100% 100%;
+    background-image: url(./img/ed-sheeran-albums-background.jpg) ;
+    /* filter: blur(10px);  */
+  }
+
+  .main__box{
+    width: 370px;
+    height: 660px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    left: 50%;
+    top: 16%;
+   
+  }
+  .box__logo{
+    width: 370px;
+    height: 440px;
+    /* background: no-repeat; */
+    
+  }
+  .box__player{
+    width: 370px;
+    height: 220px;
+    background: linear-gradient(45deg, #30cfd0, #330867);
+    bottom: 65%;
+   
+  }
+  .progress__container{
+    position: absolute;
+      display: flex;
+      align-items: center;
+      cursor: pointer;
+      background: rgb(44, 41, 41);
+      border-radius: 5px;
+      bottom: 10.5%;
+      width: 300px;
+      height: 5px;
+      left: 10%;
+  } 
+  .progress__bar{
+        position: absolute;
+        height: 5px;
+        background: #f8f5f5;
+        bottom: 10.5%;
+        border-radius: 30px;
+        left: 0%;
+   }
 }
