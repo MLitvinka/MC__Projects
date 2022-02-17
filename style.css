@@ -8,11 +8,17 @@
     z-index: -1; 
     background: no-repeat;
     background-size: 100% 100%;
-    background-image: url(./img/Symbol-Red-Hot-Chili-Peppers.jpg) ;
+    background-image: url(./img/ed-sheeran-albums-background.jpg) ;
     filter: blur(10px); 
   }
+  @media (max-width:375px ) {
+    .main__box{
+      width: 350px;
+    height: 374px;
+    }
+  }
   .main__box{
-    width: 450px;
+    width: 500px;
     height: 540px;
     position: absolute;
     display: flex;
@@ -21,31 +27,21 @@
     left: 50%;
     top: 16%;
     transform: translate(-50%);
-    border: 2px grey solid;
+    border: 2px rgb(82, 75, 75) solid;
     border-radius: 21px;
   }
   .box__logo{
-    width: 450px;
+    width: 500px;
     height: 340px;
     background: no-repeat;
     background-size: 100% 100%;
-    background-image: url(./img/Symbol-Red-Hot-Chili-Peppers.jpg);
+    background-image: url(./img/ed-sheeran-divide-album-cover.png);
     border-radius: 20px 20px 0px 0px;
   }
   .box__player{
-    width: 450px;
+    width: 500px;
     height: 200px;
-    background-color: -webkit-linear-gradient(45deg, rgb(40, 40, 40), rgb(133, 133, 133));
-    background-image: -webkit-linear-gradient(45deg, rgb(40, 40, 40), rgb(133, 133, 133));
-    background-position-x: initial;
-    background-position-y: initial;
-    background-size: initial;
-    background-repeat-x: initial;
-    background-repeat-y: initial;
-    background-attachment: initial;
-    background-origin: initial;
-    background-clip: initial;
-    background-color: initial;
+    background: linear-gradient(45deg, #30cfd0, #330867);
     top: 350px; 
     border-radius: 0px 0px 20px 20px;
   }
@@ -63,7 +59,7 @@
   .btn__play:hover,
   .btn__next:hover,
   .btn__prev:hover {
-    opacity: .75;
+    opacity: .55;
   }
   .btn__prev,
   .btn__next{
@@ -94,7 +90,7 @@
     bottom: 10.5%;
     width: 300px;
     height: 5px;
-    left: 17%;
+    left: 20%;
 } 
 .progress__bar{
       position: absolute;
